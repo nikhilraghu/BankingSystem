@@ -65,8 +65,9 @@ public class AccountantApp {
                         accountNumber = scanner.nextLine();
                         Account account = accountantService.getAccountByNumber(accountNumber);
                         if (account != null) {
-                            System.out.println("Account Number: " + account.getAccountNumber());
+                            System.out.println("Username: " + account.getUsername());
                             System.out.println("Customer ID: " + account.getCustomerId());
+                            System.out.println("Account Number: " + account.getAccountNumber());
                             System.out.println("Balance: " + account.getBalance());
                         } else {
                             System.out.println("Account not found.");
@@ -76,8 +77,9 @@ public class AccountantApp {
                     case 5:
                         List<Account> accounts = accountantService.getAllAccounts();
                         for (Account acc : accounts) {
-                            System.out.println("Account Number: " + acc.getAccountNumber() +
+                            System.out.println("Username: " + acc.getUsername() +
                                     ", Customer ID: " + acc.getCustomerId() +
+                                    ", Account Number: " + acc.getAccountNumber() +
                                     ", Balance: " + acc.getBalance());
                         }
                         break;
