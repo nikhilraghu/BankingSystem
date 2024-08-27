@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9ab1213a-ffd4-4962-82d3-1d0878fbdfac" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../src/dao/AccountDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/dao/AccountDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/AccountantApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/AccountantApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/model/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/model/Account.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;nikhilraghu&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/nikhilraghu/BankingSystem.git&quot;,
+    &quot;accountId&quot;: &quot;73501950-a47d-4031-9cdc-7ef2eb06f63a&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2kPQoHBxxrJLiE0t6sPPgeLuVoa" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="false" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9ab1213a-ffd4-4962-82d3-1d0878fbdfac" name="Changes" comment="" />
+      <created>1723182906378</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1723182906378</updated>
+    </task>
+    <servers />
+  </component>
+</project>
