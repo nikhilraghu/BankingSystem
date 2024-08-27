@@ -1,8 +1,6 @@
 package main;
-
 import model.Account;
 import service.AccountantService;
-
 import java.sql.SQLException;
 import java.util.List;
 import java.util.Scanner;

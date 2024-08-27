@@ -42,50 +42,6 @@ public class AccountDAO {
         conn.close();
     }
 
-//    public Account getAccountByNumber(String accountNumber) throws SQLException {
-//        Connection conn = DBConnection.getConnection();
-//        String query = "SELECT * FROM accounts WHERE account_number = ?";
-//        PreparedStatement stmt = conn.prepareStatement(query);
-//        stmt.setString(1, accountNumber);
-//        ResultSet rs = stmt.executeQuery();
-//
-//        Account account = null;
-//        if (rs.next()) {
-//            account = new Account(
-//                    rs.getString("account_number"),
-//                    rs.getInt("customer_id"),
-//                    rs.getDouble("balance")
-//            );
-//        }
-//        rs.close();
-//        stmt.close();
-//        conn.close();
-//
-//        return account;
-//    }
-//
-//    public List<Account> getAllAccounts() throws SQLException {
-//        Connection conn = DBConnection.getConnection();
-//        String query = "SELECT * FROM accounts";
-//        Statement stmt = conn.createStatement();
-//        ResultSet rs = stmt.executeQuery(query);
-//
-//        List<Account> accounts = new ArrayList<>();
-//        while (rs.next()) {
-//            accounts.add(new Account(
-//                    rs.getString("account_number"),
-//                    rs.getInt("customer_id"),
-//                    rs.getDouble("balance")
-//            ));
-//        }
-//        rs.close();
-//        stmt.close();
-//        conn.close();
-//
-//        return accounts;
-//    }
-//}
-
     public Account getAccountByNumber(String accountNumber) throws SQLException {
         Connection conn = DBConnection.getConnection();
         String query = "SELECT a.account_number, a.customer_id, a.balance, c.username FROM accounts a " +
@@ -100,7 +56,7 @@ public class AccountDAO {
                     rs.getString("account_number"),
                     rs.getInt("customer_id"),
                     rs.getDouble("balance"),
-                    rs.getString("username") // Get the username
+                    rs.getString("username")
             );
         }
         rs.close();
@@ -123,7 +79,7 @@ public class AccountDAO {
                     rs.getString("account_number"),
                     rs.getInt("customer_id"),
                     rs.getDouble("balance"),
-                    rs.getString("username") // Get the username
+                    rs.getString("username")
             ));
         }
         rs.close();

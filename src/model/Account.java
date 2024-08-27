@@ -4,9 +4,9 @@ public class Account {
     private String accountNumber;
     private int customerId;
     private double balance;
-    private String username; //this new field i add
+    private String username;
 
-    // Constructor with four arguments
+    // Constructor with arguments
     public Account(String accountNumber, int customerId, double balance, String username) {
         this.accountNumber = accountNumber;
         this.customerId = customerId;
@@ -14,7 +14,7 @@ public class Account {
         this.username = username;
     }
 
-    // Constructor with three arguments (for backward compatibility)
+    // Constructor with  arguments
     public Account(String accountNumber, int customerId, double balance) {
         this.accountNumber = accountNumber;
         this.customerId = customerId;
